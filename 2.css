@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    /*این کد وسط چین می کنه*/
+    justify-content: center;
+}
+.img{
+    width: 350px;
+    border-radius: 15px;
+}
+.a{
+    width: 100%;
+    display: flex;
+    width: 350px;
+}
+.b{
+    width: 20%;
+}
+.d{
+    width: 79%;
+}
+.c{
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+/*کد های ریسپانس*/
+
+@media only screen and (min-width: 576px) {
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .a{
+        display: flex;
+        width: 100%;
+    }
+    .b{
+        width: 20%;
+    }
+    .d{
+        width: 79%;
+    }
+    .c{
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+     .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .a{
+        display: flex;
+        width: 100%;
+    }
+    .b{
+        width: 20%;
+    }
+    .d{
+        width: 79%;
+    }
+    .c{
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+     .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .a{
+        display: flex;
+        width: 100%;
+    }
+    .b{
+        width: 20%;
+    }
+    .d{
+        width: 79%;
+    }
+    .c{
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+     .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .a{
+        display: flex;
+        width: 100%;
+    }
+    .b{
+        width: 20%;
+    }
+    .d{
+        width: 79%;
+    }
+    .c{
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+     .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .a{
+        display: flex;
+        width: 100%;
+    }
+    .b{
+        width: 20%;
+    }
+    .d{
+        width: 79%;
+    }
+    .c{
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .img-l{
+        width: 90%;
+        margin: auto;
+    }
+    .img-r{
+        width: 90%;
+        margin: auto;
+    }
+}
